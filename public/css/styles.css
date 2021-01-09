@@ -1,10 +1,10 @@
 body{
-    background-image: url('todo2.png');
+    background-color:rgb(84, 66, 248);
     background-repeat: no-repeat;
     background-size: 1550px 900px;
 }
 .html{
-    background-color:#E4E9FD ;
+    background-color:#0fbfeb ;
 }
 h1{
     color: #7037E9;
@@ -15,7 +15,7 @@ h1{
     margin-left: 590px ;
     margin-top:-20px;
     border-radius: 3px;
-   background-color: white;
+   background-color: rgb(54, 252, 242);
 
 }
 .box1{
@@ -23,7 +23,7 @@ h1{
     margin-left: 590px ;
     margin-top:130px;
     border-radius: 5px;
-   background-color: white;
+   background-color: rgb(57, 221, 250);
   background-image: url(icon.png);
   background-repeat: no-repeat;
   height:100px;
@@ -31,7 +31,7 @@ h1{
 }
 
 #heading{
-    background-color:white;
+    background-color:rgb(53, 248, 216);
     text-align: center;
     margin-left: 590px;
 margin-top: 100px;
@@ -119,7 +119,7 @@ p{
 #b{
    width:55px;
    height:50px;
-   background-color: rgb(245, 182, 65);
+   background-color: rgb(0, 0, 0);
    border: none;
   border-radius: 50%;
   
