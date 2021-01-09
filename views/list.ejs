@@ -6,20 +6,21 @@
         
         <div class="box">
      
-      
-         <form >
+      <% for(var j=0;j<newlistitem.length;j++){%>
+         <form action="/" method="post">
          <div class="item">
              <div class="round">
              <input type="checkbox"id="checkbox">
             
              <label for="checkbox"></label>
              </div>
-             <p>Welcome here</p>
+             <p><%=newlistitem[j]%></p>
             <br>
          </div>
          
          </form>
-      
+       <% } %>
+<!--       
          <form >
          <div class="item">
              <div class="round">
@@ -70,11 +71,11 @@
             <br>
          </div>
          
-         </form>
+         </form> -->
       
      
-        <form class="item" >
-         <input type="text"  placeholder="new"><hr>
+        <form class="item" action="/" method="post">
+         <input type="text" name="n" placeholder="new"><hr>
          <button id="b" type="submit" <span id="s2"></span>+</span></button> 
      </form>
         </div>
